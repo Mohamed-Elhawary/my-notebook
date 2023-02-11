@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/98e36eaf-14a7-459b-befb-27336640366e/deploy-status)](https://app.netlify.com/sites/mynotebook14/deploys)
 
-MY Notebook is a task list App that allows you to organize and add your tasks into your own notebook.
+MY Notebook is a note list App that allows you to organize and add your notes into your own Notebook.
 
 You can view the App from [here](https://mynotebook14.netlify.app/)
 
