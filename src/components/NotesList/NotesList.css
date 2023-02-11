@@ -1,0 +1,55 @@
+li {
+    display: flex;
+    margin-top: 30px;
+    align-items: baseline;
+}
+
+li span.note_name {
+    width: 70%;
+    margin-right: 10px;
+    padding: 15px;
+    color: #fff;
+    background: linear-gradient(to right, #283048, #859398) no-repeat;
+    overflow: hidden!important;
+}
+
+li span.delete {
+    width: 15%;
+    color: red;
+    margin-right: 10px;
+}
+
+li span.edit {
+    width: 15%;
+    color: green;
+}
+
+li span.note_name, li span.delete, li span.edit {
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+li span.delete, li span.edit {
+    background: #fff;
+    padding: 5px;
+    line-height: 45px;
+    cursor: pointer;
+    box-shadow: 0 0 8px 0 rgba(17,22,26,.16), 0 4px 8px 0 rgba(17,22,26,.08), 0 8px 16px 0 rgba(17,22,26,.08);
+}
+
+li span.delete:hover, li span.edit:hover {box-shadow: none;}
+
+#update_form {margin: 30px 0; width: 100%;}
+
+@media (max-width: 767px) {
+    li span.note_name, li span.delete, li span.edit {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    li span.delete, li span.edit {padding: 0}
+
+    #update_form input#update + input {width: 35%;}
+}

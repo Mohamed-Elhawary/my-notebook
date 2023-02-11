@@ -1,0 +1,50 @@
+form {
+    width: 80%;
+    margin: auto;
+}
+
+form .form_inputs {
+    display: flex;
+}
+
+form input[type='text'], 
+form input[type='submit'] {
+    padding: 15px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;   
+} 
+
+form input[type='text'] {
+    width: 80%;
+    border-bottom: 1px solid #777;
+    border-right: 1px solid #777;
+    background: transparent;
+    margin-right: 15px;
+}
+
+form input[type= 'submit'] {
+    width: 20%;
+    background: #222;
+    box-shadow: 0 0 8px 0 rgba(17,22,26,.16), 0 4px 8px 0 rgba(17,22,26,.08), 0 8px 16px 0 rgba(17,22,26,.08);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+form input[type= 'submit']:hover {
+    box-shadow: none;
+}
+
+@media (max-width: 767px) {
+    form input[type='text'], 
+    form input[type='submit'] {
+        padding: 5px;
+        font-size: 16px;  
+    }
+
+    form input[type='submit'] {
+        padding: 10px;
+    }
+} 
