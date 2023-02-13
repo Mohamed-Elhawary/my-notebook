@@ -30,7 +30,7 @@ https://user-images.githubusercontent.com/69651552/218254050-a1d192cd-a7b4-45a2-
     - 5- Once the App server is running, visit (localhost:3000) in the browser to view the App and now you can treat with it as shown above in the Demo.
     - 6- You can also see a live preview of the App from this link (https://mynotebook14.netlify.app/)
 
-## Built With
+## Built with
 
 * HTML
 * CSS
@@ -43,7 +43,7 @@ https://user-images.githubusercontent.com/69651552/218254050-a1d192cd-a7b4-45a2-
 
 ## Frameworks 
 
-* [React.js](https://reactjs.org/)  
+* [React](https://reactjs.org/)  
 
 ## Author
 
@@ -52,7 +52,7 @@ https://user-images.githubusercontent.com/69651552/218254050-a1d192cd-a7b4-45a2-
 ## Contact me through my social accounts
 
 * Email: mohamed.k.elhawary@gmail.com
-* [LinkedIn](https://www.linkedin.com/in/mohamed-elhawary14/)
+* [Linkedin](https://www.linkedin.com/in/mohamed-elhawary14/)
 * [Github](https://github.com/Mohamed-Elhawary)  
 * [Behance](https://www.behance.net/mohamed-elhawary14)
 * [Codepen](https://codepen.io/Mohamed-ElHawary) 
